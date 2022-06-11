@@ -1,0 +1,19 @@
+{
+    "name": "@jamesernator/ts-imports-example",
+    "type": "module",
+    "author": "James \"The Jamesernator\" Browning <contact@jamesernator.io>",
+    "license": "ISC",
+    "private": true,
+    "imports": {
+        "#base64": "./lib/Base64.js"
+    },
+    "exports": {
+        "./*": "./*"
+    },
+    "scripts": {
+        "build": "tsc --build"
+    },
+    "devDependencies": {
+        "typescript": "^4.7.3"
+    }
+}
