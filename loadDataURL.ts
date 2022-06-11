@@ -1,5 +1,4 @@
 import assert from "./lib/assert.js";
-import Base64 from "#base64";
 
 export default function loadDataURL(url: string): Blob {
     const u = new URL(url);
